@@ -49,7 +49,7 @@ const Login = () => {
 
   return (
     <div>
-      <section>
+      <section className="login_section">
         <h3>log into your account</h3>
         <form className="form" onSubmit={submitHandler}>
           <div className="input_container">

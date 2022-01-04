@@ -68,7 +68,7 @@ const Profile = () => {
   }
 
   return user ? (
-    <section>
+    <section className="profile_section">
       <div className="profile_container">
         <div className="img_container">
           <img src={user.avatar || userDefaultPic} alt="avatar" />
